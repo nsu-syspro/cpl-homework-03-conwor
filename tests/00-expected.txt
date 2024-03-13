@@ -1,0 +1,28 @@
+arithmetic operators:
+A + B  : 0
+A - B  : 0
+A * B  : 0
+A / B  : Division by zero is forbidden
+A % B  : Division by zero is forbidden
+-A     : 0
+
+logical operators:
+A && B : 0
+A || B : 0
+!A     : 1
+
+bitwise operators:
+A & B  : 0
+A | B  : 0
+A ^ B  : 0
+A << B : 0
+A >> B : 0
+~A     : -1
+
+relational operators:
+A == B : 1
+A != B : 0
+A < B  : 0
+A > B  : 0
+A <= B : 1
+A >= B : 1

@@ -1,0 +1,28 @@
+arithmetic operators:
+A + B  : Signed arithmetic overflow is forbidden
+A - B  : 2147483644
+A * B  : -4
+A / B  : 1073741823
+A % B  : 0
+-A     : -2147483646
+
+logical operators:
+A && B : 1
+A || B : 1
+!A     : 0
+
+bitwise operators:
+A & B  : 2
+A | B  : 2147483646
+A ^ B  : 2147483644
+A << B : -8
+A >> B : 536870911
+~A     : -2147483647
+
+relational operators:
+A == B : 0
+A != B : 1
+A < B  : 0
+A > B  : 1
+A <= B : 0
+A >= B : 1
