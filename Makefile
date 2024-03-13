@@ -38,7 +38,7 @@ $(EXE): $(FORMATTED_FILES)
 $(PASS): %.passed: %-input.txt %-expected.txt $(EXE)
 	@echo "Running test $*..."
 	@rm -f $@
-	./$(EXE) < $*-input.txt > $*-actual.txt
+	./$(EXE) < $*-input.txt 1> $*-actual.txt 2>&1
 	diff $*-expected.txt $*-actual.txt
 	@touch $@
 
